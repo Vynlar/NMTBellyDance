@@ -1,0 +1,260 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  padding-top: 4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.header .upper-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+}
+
+.header .lower-title {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 426px) {
+  .header .lower-title {
+    font-size: 6rem;
+  }
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .slant {
+  background: #fca746;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #fca746 0%, #f20054 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fca746 0%, #f20054 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fca746 0%, #f20054 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fca746', endColorstr='#f20054',GradientType=1 );
+  /* IE6-9 */
+  height: 840px;
+  margin-top: 30rem;
+  transform: skewY(-5deg);
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+@media screen and (min-width: 769px) {
+  .hero .slant {
+    height: 960px;
+  }
+}
+
+.hero .video {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  background: #eeeeee;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 426px) {
+  .hero .video {
+    width: 80%;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero .video {
+    width: 800px;
+    height: 480px;
+  }
+}
+
+.hero .video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.slant-content {
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.slant-content .six {
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 426px) {
+  .slant-content .six i {
+    display: inline-block;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .slant-content .six h3 {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}
+
+.slant-content h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 426px) {
+  .slant-content h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .slant-content h3 {
+    font-size: 3rem;
+  }
+}
+
+.slant-content .time-container {
+  display: block;
+}
+
+.slant-content .time-container .text-right {
+  width: 46%;
+  float: left;
+  border-right: 1px solid white;
+  padding-right: 1rem;
+}
+
+.slant-content .time-container .text-left {
+  float: left;
+  margin-left: 1rem;
+}
+
+.slant-content p {
+  font-weight: 100;
+  line-height: 0;
+}
+
+.slant-content p span {
+  font-weight: 500;
+}
+
+.slant-content .person {
+  border: 1px solid white;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 769px) {
+  .slant-content .person {
+    margin: 2rem 4rem;
+  }
+}
+
+.slant-content .person h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.slant-content .person h4 span {
+  font-weight: 100;
+  font-size: 0.7em;
+}
+
+.handouts {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 426px) {
+  .handouts {
+    margin-top: 15rem;
+  }
+}
+
+.handouts h1 {
+  margin-bottom: 4.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.3rem;
+  font-size: 3.3rem;
+}
+
+@media screen and (min-width: 426px) {
+  .handouts h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .handouts h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.handouts li {
+  text-align: left;
+  margin: 0;
+  list-style: none;
+  border-bottom: 1px solid #444;
+  padding: 1rem 2rem;
+}
+
+.handouts li:first-child {
+  border-top: 1px solid #444;
+}
+
+@media screen and (min-width: 426px) {
+  .handouts li {
+    margin: 0 4rem;
+    border: 1px solid #444;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .handouts li {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+.handouts li i {
+  margin-right: 1.2rem;
+}
+
+.footer {
+  width: 100%;
+  height: 20px;
+  padding: 20px 0;
+  background: #444444;
+  color: #888888;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
