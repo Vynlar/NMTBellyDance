@@ -11,12 +11,17 @@ body {
 .header .upper-title {
   text-transform: uppercase;
   font-size: 1rem;
-  font-weight: bold;
   letter-spacing: 1rem;
 }
 
+@media screen and (min-width: 426px) {
+  .header .upper-title {
+    font-size: 1.8rem;
+  }
+}
+
 .header .lower-title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 100;
 }
 
@@ -157,62 +162,50 @@ body {
   font-weight: 500;
 }
 
-.slant-content .person {
+.slant-content .contact a {
+  color: white;
+  text-decoration: none;
+  display: block;
   border: 1px solid white;
-  padding: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 769px) {
-  .slant-content .person {
-    margin: 2rem 4rem;
+  .slant-content .contact a {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 }
 
-.slant-content .person h4 {
+.slant-content .contact p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.8rem 0;
 }
 
-.slant-content .person h4 span {
-  font-weight: 100;
-  font-size: 0.7em;
+.slant-content .contact p i {
+  font-size: 3rem;
+  margin-right: 1rem;
 }
 
 .slider {
   width: 100%;
   margin: auto;
-  color: black;
-  margin-top: 6rem;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5rem;
 }
 
-.slider::before {
-  content: "PHOTOS & VIDEOS";
-  display: block;
-  font-size: 3rem;
-}
-
-@media screen and (min-width: 426px) {
-  .slider::before {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .slider::before {
-    font-size: 5.5rem;
-  }
-}
-
 @media screen and (min-width: 426px) {
   .slider {
     width: 80%;
-    margin-top: 13rem;
+    margin-top: 6rem;
   }
 }
 
@@ -220,52 +213,68 @@ body {
   .slider {
     width: 900px;
     margin: auto;
-    margin-top: 19rem;
   }
 }
 
 .slider .panel {
-  padding: 10px 0;
-  margin: 4px 2px;
+  height: 230px;
   width: 100%;
-  height: auto;
+  background: black;
 }
 
 @media screen and (min-width: 426px) {
   .slider .panel {
-    padding: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 380px;
   }
 }
 
 @media screen and (min-width: 769px) {
   .slider .panel {
-    padding: 20px;
+    height: 505px;
   }
 }
 
 .slider .panel img {
-  width: 100%;
-  margin-top: 1rem;
-}
-
-@media screen and (min-width: 769px) {
-  .slider .panel img {
-    margin-top: 1.5rem;
-  }
+  height: 100%;
+  margin: auto;
 }
 
 .slider button {
-  display: none;
+  display: none !important;
+  transform: translateY(50%);
 }
 
 @media screen and (min-width: 426px) {
   .slider button {
-    display: block;
+    display: block !important;
   }
 }
 
 .slider button::before {
   color: #444;
+}
+
+.section-title {
+  margin-bottom: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.3rem;
+  font-size: 3.3rem;
+}
+
+@media screen and (min-width: 426px) {
+  .section-title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .section-title {
+    font-size: 5.5rem;
+  }
 }
 
 .handouts {
@@ -276,26 +285,6 @@ body {
 @media screen and (min-width: 426px) {
   .handouts {
     margin-top: 10rem;
-  }
-}
-
-.handouts h1 {
-  margin-bottom: 4.5rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1.3rem;
-  font-size: 3.3rem;
-}
-
-@media screen and (min-width: 426px) {
-  .handouts h1 {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .handouts h1 {
-    font-size: 5.5rem;
   }
 }
 
@@ -358,4 +347,8 @@ body {
 
 .text-left {
   text-align: left;
+}
+
+.text-white {
+  color: white;
 }

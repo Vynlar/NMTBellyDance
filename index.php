@@ -17,12 +17,15 @@
                 new mexico tech
             </div>
             <div class="lower-title">
-                Belly Dance Club
+                Belly Dance & Drum Club
+            </div>
+            <div class="upper-title">
+              ADITI NATESA
             </div>
         </div>
 
         <div class="hero">
-            <div class="video"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/L8QByISylbE" frameborder="0" allowfullscreen></iframe></div>
             <div class="slant"></div>
         </div>
 
@@ -58,24 +61,21 @@
                         </div>
 
                     </div>
-                    <div class="six columns">
+                    <div class="six columns contact">
                         <i class="fa fa-phone fa-3x"></i>
                         <h3>contact info</h3>
-                        <div class="person">
-                            <h4>Nekeisha Johnson <span>Officer</span></h4>
-                            <p>978 727 3833</p>
-                            <p>njohnson@student.nmt.edu</p>
+                        <div>
+                          <a href="https://www.facebook.com/groups/203238066519188"><p><i class="fa fa-facebook"></i> Belly Dance Facebook</p></a>
+                          <a href="https://www.facebook.com/groups/421636464633620"><p><i class="fa fa-facebook"></i> Drum Tribe Facebook</p></a>
+                          <a href="mailto:bellydancenmt@gmail.com"><p><i class="fa fa-envelope"></i> BellyDanceNMT@gmail.com</p></a>
                         </div>
-                        <div class="person">
-                            <h4>John Smith <span>Member</span></h4>
-                            <p>978 727 3533</p>
-                            <p>jjdawg@student.nmt.edu</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
+        <h1 class="section-title text-white">MEDIA</h1>
         <div class="slider">
               <?php
                 $images = scandir("imgs");
@@ -92,7 +92,7 @@
 
         <div class="handouts">
             <div class="container">
-                <h1>HANDOUTS</h1>
+                <h1 class="section-title">HANDOUTS</h1>
             </div>
 
             <ul>
